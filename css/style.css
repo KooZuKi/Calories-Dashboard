@@ -1,0 +1,53 @@
+.container {
+	background-color: #f9d356;
+}
+.item {
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  display:block;
+}
+
+.block span {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.6);
+}
+.item .block .blockContent {
+  background-color: #fff;
+  height: 340px;
+  box-shadow: 1px 1px 10px #555;
+  color: #3273e1;
+  z-index: 2;
+  margin-bottom: 40px;
+
+}
+.progressTitle {
+	margin-top: 10px;
+}
+.donut, 
+.chart {
+	width: 40%;
+	margin-left: 75px;
+}
+
+.item label p {
+  font-size: 18px;
+  font-family: Raleway-Medium;
+}
+.hoverTag {
+	width: 110px;
+	height: 20px;
+	background-color: #03a9f5;
+	color: #FFF;
+	font-weight: bold;
+	transform: rotate( 45deg );
+	margin-top: -16px;
+    margin-left: 190px;
+    position: absolute;
+    border-radius: 20px 0 20px 0;
+}
+.morris-hover{position:absolute;z-index:0;}
+.morris-hover.morris-default-style{border-radius:20px;padding:6px;color:#666;background:rgba(255, 255, 255, 0.8);border:solid 2px rgba(230, 230, 230, 0.8);font-family:sans-serif;font-size:12px;text-align:center;}
+.morris-hover.morris-default-style .morris-hover-row-label{font-weight:bold;margin:0.25em 0;}
+.morris-hover.morris-default-style .morris-hover-point{white-space:nowrap;margin:0.1em 0;}
